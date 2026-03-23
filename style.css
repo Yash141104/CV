@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+/* 🔵 SIDEBAR */
+.sidebar {
+  width: 30%;
+  background: #0b2c4d;
+  color: white;
+  padding: 30px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+.section h3 {
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.tags span {
+  display: inline-block;
+  background: #123e6b;
+  padding: 5px 10px;
+  margin: 3px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+/* ⚪ MAIN CONTENT */
+.main {
+  width: 70%;
+  padding: 50px;
+  background: #f8f9fb;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.header h2 {
+  margin: 5px 0;
+  font-weight: normal;
+  color: gray;
+}
+
+.header hr {
+  margin: 15px 0;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+.job span {
+  font-size: 12px;
+  color: gray;
+}
+
+ul {
+  padding-left: 20px;
+}
