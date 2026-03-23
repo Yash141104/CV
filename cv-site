@@ -1,0 +1,11 @@
+/cv-site
+ ├── index.html        (Main CV view)
+ ├── style.css         (Design system)
+ ├── script.js         (Optional interactions)
+ ├── /assets
+ │    ├── profile.jpg
+ │    └── icons/
+ ├── /data
+ │    └── cv.json      (Dynamic content)
+ └── /admin
+      └── admin.html   (Hidden dashboard)
